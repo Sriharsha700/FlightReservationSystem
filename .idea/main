@@ -1,0 +1,9 @@
+
+
+
+public class main(){
+    public static void main(String[] args){
+        Flight flightA = new Flight();
+        system.out.println(flightA);
+    }
+}

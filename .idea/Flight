@@ -1,0 +1,48 @@
+public class Flight{
+    private String flightNumber;
+    private String airLine;
+    private int capacity;
+    private int bookedSeats;
+
+    public String getFlightNumber() {
+        return flightNumber;
+    }
+
+    public void setFlightNumber(String flightNumber) {
+        this.flightNumber = flightNumber;
+    }
+
+    public String getAirLine() {
+        return airLine;
+    }
+
+    public void setAirLine(String airLine) {
+        this.airLine = airLine;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public int getBookedSeats() {
+        return bookedSeats;
+    }
+
+    public void setBookedSeats(int bookedSeats) {
+        this.bookedSeats = bookedSeats;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Flight{" +
+                "flightNumber='" + flightNumber + '\'' +
+                ", airLine='" + airLine + '\'' +
+                ", capacity=" + capacity +
+                ", bookedSeats=" + bookedSeats +
+                '}';
+    }
+}
